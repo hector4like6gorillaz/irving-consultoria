@@ -8,7 +8,7 @@ import PageRight from './PageRight'
 import { useEffect, useState } from 'react'
 import { ICarouselData } from 'src/interfaces/carousel-interface'
 
-const Carousel = ({ data, automatic = false }: { data: ICarouselData[]; automatic?: boolean }) => {
+const Carousel = ({ data }: { data: ICarouselData[] }) => {
   const [left, setleft] = useState(false)
   const [right, setright] = useState(false)
   const [dataCenter, setdataCenter] = useState<ICarouselData | null>(null)

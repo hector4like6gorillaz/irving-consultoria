@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react'
+import { Fragment } from 'react'
 import style from './client.module.scss'
 import client from 'src/assets/landing/client.jpeg'
 

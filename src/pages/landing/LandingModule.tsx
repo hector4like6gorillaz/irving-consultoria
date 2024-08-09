@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react'
+import React from 'react'
 import MainLayout from 'src/HOC/MainLayout/MainLayout'
 import style from './landing.module.scss'
 import img from 'src/assets/landing/group.webp'
@@ -23,7 +23,7 @@ const LandingModule = () => {
         </div>
 
         <div className={`${style['big-img-div']}`}>
-          <Carousel data={contentCarousel} automatic />
+          <Carousel data={contentCarousel} />
         </div>
 
         <div className={`${style['green-bell']}`}>

@@ -3,7 +3,7 @@ import style from './button.module.scss'
 const Button = ({
   label,
   onClick,
-  isLoading = false,
+
   disabled = false,
   type = 'primary',
 }: {
