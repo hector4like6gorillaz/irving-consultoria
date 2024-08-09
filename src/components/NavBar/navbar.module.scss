@@ -1,0 +1,52 @@
+@import 'src/styles/colors.scss';
+
+.nav-container {
+  display: flex;
+  justify-content: space-around;
+  background: $primary;
+  height: 3rem;
+}
+
+.container-word-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  column-gap: 0.5rem;
+  padding-inline: 1rem;
+}
+
+.icon-props-base {
+  color: white;
+  width: 1rem;
+}
+
+.p-title {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat';
+}
+.border-left {
+  border-left-style: solid;
+  border-left-color: $primary_w;
+  border-left-width: 1px;
+}
+.border-right {
+  border-right-style: solid;
+  border-right-color: $primary_w;
+  border-right-width: 1px;
+}
+
+.container-icons-labels {
+  display: flex;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+  width: 3rem;
+  overflow: hidden;
+}
+
+.face-size {
+  width: 2rem;
+}

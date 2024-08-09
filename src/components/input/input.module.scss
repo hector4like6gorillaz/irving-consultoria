@@ -1,0 +1,40 @@
+@import 'src/styles/colors.scss';
+
+.input-props-base {
+  border: none;
+  height: 3rem;
+  border-radius: 99rem;
+  padding-left: 1rem;
+  font-size: 1rem;
+  width: 100%;
+  outline: none;
+}
+
+.input-props-primary {
+  background: $footer_foot;
+  color: white;
+}
+.input-props-secondary {
+  background: white;
+  color: black;
+}
+.textarea-props-base {
+  border: none;
+  height: 8rem;
+  border-radius: 2rem;
+  padding-left: 1rem;
+  padding-top: 0.5rem;
+  font-size: 1rem;
+  width: 100%;
+  outline: none;
+  resize: none;
+}
+
+.textarea-props-primary {
+  background: $footer_foot;
+  color: white;
+}
+.textarea-props-secondary {
+  background: white;
+  color: black;
+}

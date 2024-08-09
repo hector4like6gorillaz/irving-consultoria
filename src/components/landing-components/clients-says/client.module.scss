@@ -1,0 +1,81 @@
+@import 'src/styles/colors.scss';
+
+.what-they-say {
+  padding-block: 10rem;
+  background: #f7f7f7;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title-h2 {
+  font-size: 3rem;
+  margin: 0;
+  padding: 0;
+}
+.color-primary {
+  color: $primary;
+}
+
+.subtitle-p {
+  margin: 0;
+  padding: 0;
+  letter-spacing: 0.1rem;
+  color: $secondary;
+}
+
+.mini-card-container {
+  width: 40rem;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-block: 2rem;
+}
+
+.p-card-title {
+  margin: 0;
+  padding: 0;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.p-card-subtitle {
+  color: $primary;
+  font-weight: 700;
+  font-size: 1rem;
+  margin: 0;
+  padding: 0;
+}
+
+.p-content-card {
+  margin: 0;
+  padding: 0;
+  color: $secondary;
+  margin-bottom: 0.5rem;
+  letter-spacing: 0.1rem;
+}
+
+.cards-container-slider {
+  display: flex;
+  column-gap: 2rem;
+}
+
+.container-cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.img-worker-container {
+  width: 7rem;
+  height: 7rem;
+  border-radius: 9999rem;
+  background: green;
+  margin-top: 2rem;
+  overflow: hidden;
+}
+.img-worker {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

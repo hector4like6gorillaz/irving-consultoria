@@ -1,0 +1,32 @@
+@import 'src/styles/colors.scss';
+
+.div-container-financial {
+  background: #f7f7f7;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.h2-title {
+  font-size: 2.5rem;
+  margin: 0;
+  padding: 0;
+}
+.p-sub-cards {
+  font-size: 1rem;
+  margin: 0;
+  padding: 0;
+  letter-spacing: 0.2rem;
+}
+
+.three-cards-container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  column-gap:  2rem;
+  margin-top: 5rem;
+}
+.span-financial {
+  color: $primary;
+}

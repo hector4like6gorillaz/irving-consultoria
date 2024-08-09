@@ -1,0 +1,13 @@
+@import 'src/styles/colors.scss';
+
+.p-hover {
+  padding: 0;
+  margin: 0;
+  color: white;
+  cursor: pointer;
+  width: fit-content;
+  transition-duration: 0.3s;
+}
+.p-hover:hover {
+  color: $primary;
+}
