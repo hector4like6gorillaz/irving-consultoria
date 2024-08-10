@@ -5,54 +5,42 @@ import { Fragment } from 'react'
 const Transparent = () => {
   const data = [
     {
-      number: 945,
+      number: 160,
       title: 'Work Hours',
     },
+
     {
-      number: 1280,
-      title: 'Great Reviews',
-    },
-    {
-      number: 578,
+      number: 14,
       title: 'Projects Done',
-    },
-    {
-      number: 26,
-      title: 'Awards Won',
     },
   ]
   return (
     <div className={`${style['transparent-container']}`}>
       <div className={`${style['container-left']}`}>
-        <p className={`${style['p-title-small']}`}>Lorem ipsum dolor sit amet</p>
+        <p className={`${style['p-title-small']}`}>TRANSFORMA TU NEGOCIO</p>
         <br />
-        <h3 className={`${style['h3-title-trans']}`}>Our solutions for your</h3>
+        <h3 className={`${style['h3-title-trans']}`}>Nuestras soluciones para el</h3>
         <h3 className={`${style['h3-title-trans']} ${style['h3-title-trans-green']}`}>
-          business growth
+          crecimiento de tu negocio
         </h3>
         <br />
         <br />
         <p className={`${style['p-content-trans']}`}>
-          Pellentesque ultrices at turpis in vestibulum. Aenean pretium elit nec
+          Nuestros servicios de digitalización y desarrollo web están diseñados
         </p>
         <br />
         <p className={`${style['p-content-trans']}`}>
-          congue elementum. Nulla luctus laoreet porta. Maecenas at nisi
-        </p>
-        <br />
-        <p className={`${style['p-content-trans']}`}>tempus, porta metus vitae, faucibus augue.</p>
-        <br />
-        <p className={`${style['p-content-trans']}`}>
-          Fusce et venenatis ex. Quisque varius, velit quis dictum sagittis, odio
+          para impulsar tu negocio en el mundo digital. Con nuestra experiencia
         </p>
         <br />
         <p className={`${style['p-content-trans']}`}>
-          velit molestie nunc, ut posuere ante tortor ut neque.
+          y conocimientos, llevaremos tu presencia online al siguiente nivel.
         </p>
+
         <br />
         <br />
         <br />
-        <Button label='READ MORE' />
+        <Button label='Leer Mas' />
       </div>
       <div className={`${style['container-right']}`}>
         {data.map((item, index) => {

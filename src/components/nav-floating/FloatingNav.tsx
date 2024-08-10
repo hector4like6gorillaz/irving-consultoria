@@ -13,15 +13,15 @@ const FloatingNav = () => {
       url: '/',
     },
     {
-      title: 'About Us',
+      title: 'Acerca de nosotros',
       url: '/about-us',
     },
     {
-      title: 'Our Services',
+      title: 'Servicios',
       url: '/our-services',
     },
     {
-      title: 'Contact Us',
+      title: 'Contacto',
       url: '/contact-us',
     },
   ]
@@ -74,7 +74,8 @@ const FloatingNav = () => {
   return (
     <Fragment>
       <div className={`${style['floatin-div-navbar']} ${getLabelClass('div')}`}>
-        <h2 className={`${style['h2-label']} ${getLabelClass('title')}`}>Finance Business</h2>
+        <h2 className={`${style['h2-label']} ${getLabelClass('title')}`}>ID Innovations
+        </h2>
         <div className={`${style['div-container-menu']}`}>
           {directions.map((item, index) => {
             return (

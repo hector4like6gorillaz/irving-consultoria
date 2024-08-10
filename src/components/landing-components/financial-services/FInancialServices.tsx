@@ -6,9 +6,9 @@ import { IcardFinancial } from 'src/interfaces/fiancial-interface'
 
 const FInancialServices = ({
   cards,
-  title = 'Financial',
-  titleGreen = 'Services',
-  subtitle = 'Aliquam id urna imperdiet libero mollis hendrerit',
+  title = 'Servicios de',
+  titleGreen = 'Digitalización',
+  subtitle = 'SOLUCIONES INNOVADORAS PARA TU PRESENCIA ONLINE',
 }: {
   cards: IcardFinancial[]
   title?: string

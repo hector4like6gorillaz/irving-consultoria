@@ -11,13 +11,13 @@ const NavBar = () => {
       <div className={`${style['container-icons-labels']}`}>
         <div className={`${style['container-word-icon']} ${style['border-left']}`}>
           <ClockIcon className={`${style['icon-props-base']}`} />
-          <p className={`${style['p-title']}`}>Mon-Fri 09:00-17:00</p>
+          <p className={`${style['p-title']}`}>Lun-Vie 09:00-17:00</p>
         </div>
         <div
           className={`${style['container-word-icon']} ${style['border-left']} ${style['border-right']}`}
         >
           <PhoneIcon className={`${style['icon-props-base']}`} />
-          <p className={`${style['p-title']}`}>999-999-9999</p>
+          <p className={`${style['p-title']}`}>+1 470 907 6083</p>
         </div>
       </div>
       <div className={`${style['container-icons-labels']}`}>

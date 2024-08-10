@@ -28,10 +28,11 @@ const LandingModule = () => {
 
         <div className={`${style['green-bell']}`}>
           <div className={`${style['container-words']}`}>
-            <h3 className={`${style['h3-label']}`}>Request a call back right now ?</h3>
+            <h3 className={`${style['h3-label']}`}>¿Necesitas una consulta ahora?</h3>
             <br />
             <p className={`${style['p-label']}`}>
-              Mauris ut dapibus velit cras interdum nisl ac urna tempor mollis.
+              Nuestro equipo está listo para ayudarte a digitalizar tu negocio y crear tu página
+              web.
             </p>
           </div>
           <Button type='secondary' label='Contact us' />

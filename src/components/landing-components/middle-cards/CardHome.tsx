@@ -8,7 +8,13 @@ const CardHome = ({ data }: { data: IcardFinancial }) => {
     <div className={`${style['container-card']}`}>
       <img className={`${style['img-card']}`} src={data.img} />
       <div className={`${style['body-container']}`}>
-        <h4 className={`${style['h4-title']}`}>{data.title}</h4>
+        {data.title.split('\n').map((item, index) => {
+          return (
+            <Fragment key={item + index}>
+              <h4 className={`${style['h4-title']}`}>{item}</h4>
+            </Fragment>
+          )
+        })}
         {data.subTitle && (
           <Fragment>
             <br />

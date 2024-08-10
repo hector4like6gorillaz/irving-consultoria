@@ -7,12 +7,12 @@ import img3 from 'src/assets/landing/carousel/slide_03.jpg'
 const contentCarousel: ICarouselData[] = [
   {
     img: img1,
-    title: 'WE ARE READY TO HELP YOU',
-    subTitle: ['FINANCIAL ANALYSIS', '& CONSULTING'],
+    title: 'ESTAMOS LISTOS PARA DIGITALIZAR TU NEGOCIO',
+    subTitle: ['CREACIÓN DE PÁGINAS WEB', '& DIGITALIZACIÓN'],
     description: [
-      'This finance HTML template is 100% free of charge provided by TemplateMo',
-      'for everyone. This is a multiple-page version with different HTML pages.',
-      'One-page version is available as of 2021',
+      'Nuestra consultora ofrece soluciones personalizadas para la creación de',
+      'páginas web y servicios de digitalización. Nos aseguramos de que tu',
+      'negocio este presente en el mundo digital.',
     ],
     buttonProps: {
       label: 'Contact Us',
@@ -22,12 +22,12 @@ const contentCarousel: ICarouselData[] = [
 
   {
     img: img2,
-    title: 'WE ARE HERE TO SUPPORT YOU',
-    subTitle: ['ACCOUNTING', '& MANAGEMENT'],
+    title: 'TRANSFORMAMOS TU PRESENCIA ONLINE',
+    subTitle: ['DESARROLLO WEB', '& ESTRATEGIAS DIGITALES'],
     description: [
-      'You are allowed to use this template for your company websites. You are',
-      'NOT allowed to re-distribute this template ZIP file on any template',
-      'download website. Please contact TemplateMo for more detail.',
+      'Permitenos ayudarte a desarrollar una presencia web efectiva y',
+      'estrategias digitales que impulsen tu negocio. Nuestro equipo está aquí',
+      'paraguiarte en cada paso del proceso.',
     ],
     buttonProps: {
       label: 'OUR SERVICES',
@@ -36,12 +36,11 @@ const contentCarousel: ICarouselData[] = [
   },
   {
     img: img3,
-    title: 'WE HAVE A SOLID BACKGROUND',
-    subTitle: ['MARKET ANALYSIS', '& STATISTICS'],
+    title: 'EXPERTOS EN SOLUCIONES DIGITALES',
+    subTitle: ['CONSULTORÍA EN DIGITALIZACION', '& ANALISIS WEB'],
     description: [
-      'You can download, edit and use this layout for your business website.',
-      'Phasellus lacinia ac sapien vitae dapibus. Mauris ut dapibus velit cras',
-      'interdum nisi ac urna tempor mollis.',
+      'Nuestro equipo ofrece análisis detallados y consultoría para mejorar tu',
+      'presencia digital.',
     ],
     buttonProps: {
       label: 'LEARN MORE',

@@ -11,34 +11,42 @@ const BoldInformation = ({ secondary = false }: { secondary?: boolean }) => {
       </div>
       <div className={`${style['container-data']}`}>
         <p className={`${style['p-mini-title']}`}>
-          {secondary ? 'our solid background on finance' : 'Who we are'}{' '}
+          {secondary ? 'our solid background on finance' : 'QUIENES SOMOS'}{' '}
         </p>
         <br />
         <h3 className={`${style['h3-title']}`}>
-          Get to know about <span className={`${style['color-primary']}`}>our</span>
+          Conoce más sobre <span className={`${style['color-primary']}`}></span>
         </h3>
-        <h3 className={`${style['h3-title']} ${style['color-primary']}`}>company</h3>
+        <h3 className={`${style['h3-title']} ${style['color-primary']}`}>nuestra empresa</h3>
         <br />
         <br />
         <p className={`${style['p-content-bold']}`}>
-          Curabitur pulvinar sem a leo tempus facilisis. Sed non sagittis
+          Somos una consultora especializada en la creación de páginas
         </p>
         <p className={`${style['p-content-bold']}`}>
-          neque. Nulla conse quat tellus nibh, id molestie felis sagittis ut.
+          web y servicios de digitalización. Nuestro equipo está
         </p>
-        <p className={`${style['p-content-bold']}`}>Nam ullamcorper tempus ipsum in cursus</p>
+        <p className={`${style['p-content-bold']}`}>
+          comprometido en ofrecer soluciones innovadoras y
+        </p>
+        <p className={`${style['p-content-bold']}`}>
+          personalizadas para cada cliente. Nos enfocamos en transformar
+        </p>
+        <p className={`${style['p-content-bold']}`}>
+          digitalmente tu negocio para llevarlo al siguiente nivel.
+        </p>
         <br />
         <br />
         <p className={`${style['p-content-bold']}`}>
-          Praes end at dictum metus. Morbi id hendrerit lectus, nec dapibus
+          Con años de experiencia en el sector, estamos aquí para
         </p>
         <p className={`${style['p-content-bold']}`}>
-          ex. Etiam ipsum quam, luctus eu egestas eget, tincidunt
+          asesorarte y brindarte las mejores estrategias digitales.
         </p>
         <br />
 
         <br />
-        <Button label='READ MORE' />
+        <Button label='Leer Mas' />
       </div>
     </div>
   )

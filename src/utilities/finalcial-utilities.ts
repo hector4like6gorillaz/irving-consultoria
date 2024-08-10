@@ -5,41 +5,44 @@ import img3 from 'src/assets/landing/financial/service_03.jpg'
 
 export const financialCards: IcardFinancial[] = [
   {
-    title: 'Digital Currency',
+    title: 'Desarrollo Web',
     img: img1,
     content: [
-      'Sed tincidunt dictum lobortis. Aenean',
-      'tempus diam vel augue luctus dignissim.',
-      'Nunc ornare leo tortor.',
+      'Diseñamos y desarrollamos páginas web',
+      'adaptadas a las necesidades de tu',
+      'negocio, con un enfoque en la usabilidad',
+      'y la experiencia del usuario.',
     ],
     buttonProps: {
-      label: 'Read More',
+      label: 'Leer Mas',
       onClick: () => null,
     },
   },
   {
-    title: 'Market Analysis',
+    title: 'Estrategias Digitales',
     img: img2,
     content: [
-      'Sed tincidunt dictum lobortis. Aenean',
-      'tempus diam vel augue luctus dignissim.',
-      'Nunc ornare leo tortor.',
+      'Elaboramos estrategias digitales',
+      'personalizadas para mejorar tu',
+      'presencia online y alcanzar tus objetivos',
+      'comerciales.',
     ],
     buttonProps: {
-      label: 'Read More',
+      label: 'Leer Mas',
       onClick: () => null,
     },
   },
   {
-    title: 'Historical Data',
+    title: 'Consultoría en\nDigitalización',
     img: img3,
     content: [
-      'Sed tincidunt dictum lobortis. Aenean',
-      'tempus diam vel augue luctus dignissim.',
-      'Nunc ornare leo tortor.',
+      'Ofrecemos asesoramiento experto para',
+      'transformar digitalmente tu negocio y',
+      'optimizar tus procesos.',
+      '',
     ],
     buttonProps: {
-      label: 'Read More',
+      label: 'Leer Mas',
       onClick: () => null,
     },
   },

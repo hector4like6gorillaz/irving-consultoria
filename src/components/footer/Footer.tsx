@@ -7,12 +7,12 @@ const Footer = () => {
     <div className={`${style['footer-container']}`}>
       <div className={`${style['head-footer-container']}`}>
         <div>
-          <h1 className={`${style['h1-title']}`}>Finance Business</h1>
-          <p className={`${style['p-footer']}`}>Vivamus tellus mi. Nulla ne cursus</p>
+          <h1 className={`${style['h1-title']}`}>ID Innovations</h1>
+          <p className={`${style['p-footer']}`}>Somos una consultora especializada</p>
           <br />
-          <p className={`${style['p-footer']}`}>elit, vulputate. Sed ne cursus augue sapien</p>
+          <p className={`${style['p-footer']}`}>en la creación de páginas web</p>
           <br />
-          <p className={`${style['p-footer']}`}>vitae. augue hasellus lacinia sapien vitae.</p>
+          <p className={`${style['p-footer']}`}>y servicios de digitalización.</p>
         </div>
         <div>
           <h1 className={`${style['h1-title']}`}>Useful Links</h1>
@@ -28,13 +28,13 @@ const Footer = () => {
         </div>
         <div>
           <h1 className={`${style['h1-title']}`}>Additional Pages</h1>
-          <PHover>About Us</PHover>
+          <PHover nav='/about-us'>Acerca De Nosotros</PHover>
           <br />
           <PHover>How We Work</PHover>
           <br />
           <PHover>Quick Support</PHover>
           <br />
-          <PHover>Contact Us</PHover>
+          <PHover nav='/contact-us'>Contacto</PHover>
           <br />
           <PHover>Privacy Policity</PHover>
         </div>
@@ -42,7 +42,7 @@ const Footer = () => {
       </div>
       <div className={`${style['foot-footer-container']}`}>
         <p className={`${style['p-footer']}`}>
-          Copyright © 2020 Financial Business Co., Ltd. - Design: TemplateMo
+          Copyright © 2024 IDInnovations - Diseño: ID Innovations
         </p>
       </div>
     </div>
