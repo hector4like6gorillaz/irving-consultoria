@@ -48,3 +48,10 @@ const NavBar = () => {
 }
 
 export default NavBar
+
+/*
+Smartphones: 0px - 599px
+Tablets: 600px - 1199px
+Desktops: 1200px - 1919px
+Ultra-wide Screens: 1920px en adelante
+*/

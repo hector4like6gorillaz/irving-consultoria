@@ -20,7 +20,7 @@ const Request = () => {
           <Input placeHolder='Subject' theme='secondary' />
         </div>
         <Input inputDefault={false} placeHolder='Subject' theme='secondary' />
-        <Button label='SEND MESSAGE' type='secondary' />
+        <Button label='CONTACTARNOS' type='secondary' />
       </div>
       <div className={`${style['div-left-container']}`}>
         <p className={`${style['p-contact-us']}`}>

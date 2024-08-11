@@ -2,8 +2,7 @@
 
 .div-container-financial {
   background: #f7f7f7;
-  padding-top: 8rem;
-  padding-bottom: 8rem;
+  padding-block: 8rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -24,9 +23,32 @@
   display: flex;
   width: 100%;
   justify-content: center;
-  column-gap:  2rem;
+  column-gap: 2rem;
   margin-top: 5rem;
 }
 .span-financial {
   color: $primary;
+}
+
+@media (min-width: 0) and (max-width: 599px) {
+  .div-container-financial {
+    padding-block: 2rem;
+    padding-inline: 2rem;
+  }
+  .three-cards-container {
+    flex-direction: column;
+    row-gap: 3rem;
+  }
+  .h2-title {
+    text-align: center;
+  }
+  .p-sub-cards {
+    text-align: center;
+  }
+}
+@media (min-width: 600px) and (max-width: 1199px) {
+}
+@media (min-width: 1200px) and (max-width: 1919px) {
+}
+@media (min-width: 1920px) {
 }

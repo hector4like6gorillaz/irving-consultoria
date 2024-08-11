@@ -31,22 +31,32 @@ const PageCenter = ({
         <div className={`${style['message-button-container']}`}>
           <h3 className={`${style['h3-title']}`}>{dataPage.title} </h3>
           <br />
-          {dataPage.subTitle.map((item, index) => {
-            return (
-              <Fragment key={index + index}>
-                <h1 className={`${style['h1-title']}`}>{item} </h1>
-              </Fragment>
-            )
-          })}
+          <div className={`${style['hide-movile']}`}>
+            {dataPage.subTitle.map((item, index) => {
+              return (
+                <Fragment key={index + index}>
+                  <h1 className={`${style['h1-title']}`}>{item} </h1>
+                </Fragment>
+              )
+            })}
+          </div>
+          <div className={`${style['show-movile']}`}>
+            <h1 className={`${style['h1-title']}`}>{dataPage.subTitle.join(' ')} </h1>
+          </div>
           <br />
           <br />
-          {dataPage.description.map((item, index) => {
-            return (
-              <Fragment key={index + index}>
-                <p className={`${style['p-conctent']}`}>{item}</p>
-              </Fragment>
-            )
-          })}
+          <div className={`${style['hide-movile']}`}>
+            {dataPage.description.map((item, index) => {
+              return (
+                <Fragment key={index + index}>
+                  <p className={`${style['p-conctent']}`}>{item}</p>
+                </Fragment>
+              )
+            })}
+          </div>
+          <div className={`${style['show-movile']}`}>
+            <p className={`${style['p-conctent']}`}>{dataPage.description.join(' ')}</p>
+          </div>
           <br />
           <br />
           <Button label={dataPage.buttonProps.label} onClick={dataPage.buttonProps.onClick} />

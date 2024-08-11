@@ -19,23 +19,40 @@ const Transparent = () => {
       <div className={`${style['container-left']}`}>
         <p className={`${style['p-title-small']}`}>TRANSFORMA TU NEGOCIO</p>
         <br />
-        <h3 className={`${style['h3-title-trans']}`}>Nuestras soluciones para el</h3>
-        <h3 className={`${style['h3-title-trans']} ${style['h3-title-trans-green']}`}>
-          crecimiento de tu negocio
-        </h3>
+        <div className={`${style['hide-movile']}`}>
+          <h3 className={`${style['h3-title-trans']}`}>Nuestras soluciones para el</h3>
+          <h3 className={`${style['h3-title-trans']} ${style['h3-title-trans-green']}`}>
+            crecimiento de tu negocio
+          </h3>
+        </div>
+        <div className={`${style['show-movile']}`}>
+          <h3 className={`${style['h3-title-trans']}`}>
+            Nuestras soluciones para el{' '}
+            <span className={`${style['h3-title-trans-green']}`}>crecimiento de tu negocio</span>{' '}
+          </h3>
+        </div>
         <br />
         <br />
-        <p className={`${style['p-content-trans']}`}>
-          Nuestros servicios de digitalización y desarrollo web están diseñados
-        </p>
-        <br />
-        <p className={`${style['p-content-trans']}`}>
-          para impulsar tu negocio en el mundo digital. Con nuestra experiencia
-        </p>
-        <br />
-        <p className={`${style['p-content-trans']}`}>
-          y conocimientos, llevaremos tu presencia online al siguiente nivel.
-        </p>
+        <div className={`${style['hide-movile']}`}>
+          <p className={`${style['p-content-trans']}`}>
+            Nuestros servicios de digitalización y desarrollo web están diseñados
+          </p>
+          <br />
+          <p className={`${style['p-content-trans']}`}>
+            para impulsar tu negocio en el mundo digital. Con nuestra experiencia
+          </p>
+          <br />
+          <p className={`${style['p-content-trans']}`}>
+            y conocimientos, llevaremos tu presencia online al siguiente nivel.
+          </p>
+        </div>
+        <div className={`${style['show-movile']}`}>
+          <p className={`${style['p-content-trans']}`}>
+            Nuestros servicios de digitalización y desarrollo web están diseñados para impulsar tu
+            negocio en el mundo digital. Con nuestra experiencia y conocimientos, llevaremos tu
+            presencia online al siguiente nivel.
+          </p>
+        </div>
 
         <br />
         <br />

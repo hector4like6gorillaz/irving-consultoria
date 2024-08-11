@@ -22,13 +22,18 @@ const CardHome = ({ data }: { data: IcardFinancial }) => {
           </Fragment>
         )}
         <br />
-        {data.content.map((item, index) => {
-          return (
-            <Fragment key={item + index}>
-              <p className={`${style['p-card']}`}>{item} </p>
-            </Fragment>
-          )
-        })}
+        <div className={`${style['hide-tablet']}`}>
+          {data.content.map((item, index) => {
+            return (
+              <Fragment key={item + index}>
+                <p className={`${style['p-card']}`}>{item} </p>
+              </Fragment>
+            )
+          })}
+        </div>
+        <div className={`${style['show-tablet']}`}>
+          <p className={`${style['p-label-tablet']}`}>{data.content.join(' ')}</p>
+        </div>
         <br />
 
         {data.buttonProps && (

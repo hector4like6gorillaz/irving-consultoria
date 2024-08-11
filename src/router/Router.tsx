@@ -29,3 +29,16 @@ const Router = () => {
 }
 
 export default Router
+
+
+/*
+@media (min-width: 0) and (max-width: 599px) {
+}
+@media (min-width: 600px) and (max-width: 1199px) {
+}
+@media (min-width: 1200px) and (max-width: 1919px) {
+}
+@media (min-width: 1920px) {
+}
+
+*/

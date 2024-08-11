@@ -1,7 +1,7 @@
 @import 'src/styles/colors.scss';
 
 .container-menu-left {
-  background: $backGrey;
+  background: white;
   padding-block: 8rem;
   display: flex;
   justify-content: center;
@@ -72,4 +72,45 @@
   padding-bottom: 1rem;
   font-size: 1rem;
   color: $secondary;
+}
+
+@media (min-width: 0) and (max-width: 599px) {
+  .container-menu-left {
+    padding-block: 3rem;
+  }
+  .container-center-menu {
+    flex-direction: column;
+    align-items: center;
+    padding-inline: 2rem;
+    row-gap: 2rem;
+  }
+  .green-selected-menu {
+    width: 100%;
+  }
+  .container-options {
+    width: 100%;
+  }
+  .description-container {
+    width: 100%;
+  }
+}
+@media (min-width: 600px) and (max-width: 1199px) {
+  .container-center-menu {
+    display: flex;
+    column-gap: 2rem;
+    padding-inline: 1rem;
+  }
+  .green-selected-menu {
+    width: 100%;
+  }
+  .container-options {
+    width: 50%;
+  }
+  .description-container {
+    width: 100%;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1919px) {
+}
+@media (min-width: 1920px) {
 }

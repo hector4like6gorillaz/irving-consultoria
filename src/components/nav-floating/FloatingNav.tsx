@@ -1,12 +1,14 @@
 import { Fragment, useEffect, useState } from 'react'
 import style from './flotating.module.scss'
 import { useLocation, useNavigate } from 'react-router-dom'
+import { Bars4Icon } from '@heroicons/react/24/outline'
 
 const FloatingNav = () => {
   const navigate = useNavigate()
   const { pathname } = useLocation()
   const [scrollPosition, setScrollPosition] = useState(0)
   const [windowHeight, setWindowHeight] = useState(window.innerHeight)
+  const [showMenuBurguer, setshowMenuBurguer] = useState(false)
   const directions = [
     {
       title: 'Home',
@@ -74,24 +76,49 @@ const FloatingNav = () => {
   return (
     <Fragment>
       <div className={`${style['floatin-div-navbar']} ${getLabelClass('div')}`}>
-        <h2 className={`${style['h2-label']} ${getLabelClass('title')}`}>ID Innovations
-        </h2>
-        <div className={`${style['div-container-menu']}`}>
-          {directions.map((item, index) => {
-            return (
-              <Fragment key={item.title + item.url + index}>
-                <p
-                  onClick={() => navigate(item.url)}
-                  className={`${style['p-label-base']} ${
-                    pathname === item.url && style['p-selected']
-                  } ${getLabelClass('p')}`}
-                >
-                  {item.title}{' '}
-                </p>
-              </Fragment>
-            )
-          })}
+        <div className={`${style['content-menu-floating']}`}>
+          <h2 className={`${style['h2-label']} ${getLabelClass('title')}`}>ID Innovations</h2>
+          <div className={`${style['div-container-menu']}`}>
+            {directions.map((item, index) => {
+              return (
+                <Fragment key={item.title + item.url + index}>
+                  <p
+                    onClick={() => navigate(item.url)}
+                    className={`${style['p-label-base']} ${
+                      pathname === item.url && style['p-selected']
+                    } ${getLabelClass('p')}`}
+                  >
+                    {item.title}{' '}
+                  </p>
+                </Fragment>
+              )
+            })}
+          </div>
+          <div className={`${style['burger-menu']}`}>
+            <Bars4Icon
+              className={`${style['icon-menu']}`}
+              onClick={() => setshowMenuBurguer(!showMenuBurguer)}
+            />
+          </div>
         </div>
+        {showMenuBurguer && (
+          <div className={`${style['div-menu-show-movile']}`}>
+            {directions.map((item, index) => {
+              return (
+                <Fragment key={item.title + item.url + index}>
+                  <p
+                    onClick={() => navigate(item.url)}
+                    className={`${style['p-label-base']} ${
+                      pathname === item.url && style['p-selected']
+                    } ${getLabelClass('p')}`}
+                  >
+                    {item.title}{' '}
+                  </p>
+                </Fragment>
+              )
+            })}
+          </div>
+        )}
       </div>
     </Fragment>
   )

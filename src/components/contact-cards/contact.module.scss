@@ -8,3 +8,21 @@
   align-items: center;
   column-gap: 2rem;
 }
+
+@media (min-width: 0) and (max-width: 599px) {
+  .container-contact {
+    padding-block: 3rem;
+    flex-direction: column;
+    row-gap: 2rem;
+  }
+}
+@media (min-width: 600px) and (max-width: 1199px) {
+  .container-contact {
+    padding-block: 4rem;
+    padding-inline: 2rem;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1919px) {
+}
+@media (min-width: 1920px) {
+}

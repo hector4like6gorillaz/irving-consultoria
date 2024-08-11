@@ -6,11 +6,9 @@ import Carousel from 'src/components/landing-components/carousel/Carousel'
 import { contentCarousel } from 'src/utilities/carousel-utilities'
 import Button from 'src/components/button/Button'
 import { financialCards } from 'src/utilities/finalcial-utilities'
-
 import FInancialServices from 'src/components/landing-components/financial-services/FInancialServices'
 import Transparent from 'src/components/landing-components/transparent/Transparent'
 import BoldInformation from 'src/components/landing-components/bold-information/BoldInformation'
-import ClientsSays from 'src/components/landing-components/clients-says/ClientsSays'
 
 import Request from 'src/components/landing-components/request-callback/Request'
 
@@ -21,7 +19,6 @@ const LandingModule = () => {
         <div className={`${style['fixed-img']}`}>
           <img className={`${style['img-background']}`} src={img} />
         </div>
-
         <div className={`${style['big-img-div']}`}>
           <Carousel data={contentCarousel} />
         </div>
@@ -37,11 +34,13 @@ const LandingModule = () => {
           </div>
           <Button type='secondary' label='Contact us' />
         </div>
-        <FInancialServices cards={financialCards} />
         <Transparent />
+        <FInancialServices cards={financialCards} />
         <BoldInformation />
-        <ClientsSays />
         <Request />
+        {/*       
+        <ClientsSays />
+         */}
       </div>
     </MainLayout>
   )
